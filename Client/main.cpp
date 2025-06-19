@@ -12,6 +12,7 @@
 #pragma comment(lib, "Ws2_32.lib")
 
 #define PORT 4200
+#define END_CONNECTION "::bye::"
 
 std::string readFilesDir(std::string dir)
 {
@@ -88,7 +89,7 @@ void sendInfo(std::string &host, std::string &dir, SOCKET sock)
 
     sleep(2);
 
-    const char *message = "bye";
+    const char *message = END_CONNECTION;
 
     sendSocketMessage(sock, message);
 }
@@ -125,9 +126,16 @@ int server(std::string comando, std::string host, std::string port, std::string 
         return 1;
     }
 
+    auto start = std::chrono::high_resolution_clock::now();
+
     readyConnection(sock);
 
     sendInfo(host, dir, sock);
+
+    auto end = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double> elapsed = end - start;
+    
+    std::cout << "Tempo total de transmissão: " << elapsed.count() << " s\n" << std::endl;
 
     closesocket(sock);
     WSACleanup();

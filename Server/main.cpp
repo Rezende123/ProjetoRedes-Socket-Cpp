@@ -15,6 +15,7 @@
 #pragma comment(lib, "Ws2_32.lib")
 
 #define PORTA 8080
+#define END_CONNECTION "::bye::"
 
 int makeFile(std::string filename, std::string content)
 {
@@ -86,25 +87,6 @@ std::string recvSocketMessage(SOCKET clientSocket)
 void makeFileByConnection(SOCKET clientSocket)
 {
     std::string host, dir, files;
-    // char buffer[1024] = {0};
-
-    // do
-    // {
-    //     // Limpa buffer
-    //     memset(buffer, 0, sizeof(buffer));
-
-    //     recv(clientSocket, buffer, sizeof(buffer), 0);
-    //     std::cout << "Mensagem do cliente: " << buffer << std::endl;
-
-    //     std::istringstream iss(buffer);
-    //     iss >> host >> dir >> files;
-
-    //     if (!files.empty() && strcmp(buffer, "bye") != 0)
-    //     {
-    //         makeFile(host + dir, files);
-    //     }
-
-    // } while (strcmp(buffer, "bye") != 0);
     std::string response = "";
 
     do {
@@ -113,11 +95,11 @@ void makeFileByConnection(SOCKET clientSocket)
         std::istringstream iss(response);
         iss >> host >> dir >> files;
 
-        if (!files.empty() && strcmp(response.c_str(), "bye") != 0)
+        if (!files.empty() && strcmp(response.c_str(), END_CONNECTION) != 0)
         {
             makeFile(host + dir, files);
         }
-    } while (strcmp(response.c_str(), "bye") != 0);    
+    } while (strcmp(response.c_str(), END_CONNECTION) != 0);    
 }
 
 void readyConnection(SOCKET clientSocket)
@@ -188,9 +170,16 @@ int server()
         return 1;
     }
 
+    auto start = std::chrono::high_resolution_clock::now();
+
     readyConnection(clientSocket);
 
     makeFileByConnection(clientSocket);
+
+    auto end = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double> elapsed = end - start;
+    
+    std::cout << "Tempo total de transmissão: " << elapsed.count() << " s\n" << std::endl;
 
     closesocket(clientSocket);
     closesocket(serverSocket);
