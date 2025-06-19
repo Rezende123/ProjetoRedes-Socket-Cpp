@@ -19,11 +19,12 @@
 
 int makeFile(std::string filename, std::string content)
 {
-    std::cout << "Salvando arquivo...\n" << std::endl;
     // Formata o nome do arquivo, removendo caracteres especiais
-    filename = std::regex_replace(filename, std::regex(R"([./\\])"), "");
+    filename = std::regex_replace(filename, std::regex(R"([./:\\])"), "") + ".txt";
 
-    std::ofstream MyFile(filename + ".txt");
+    std::cout << "Salvando arquivo " << filename << "\n" << std::endl;
+
+    std::ofstream MyFile(filename);
 
     if (MyFile.is_open())
     {
@@ -121,7 +122,7 @@ int server()
 {
     WSADATA wsaData;
     SOCKET serverSocket, clientSocket;
-    sockaddr_in serverAddr, clientAddr;
+    sockaddr_storage clientAddr;
     int clientAddrLen = sizeof(clientAddr);
 
     // Inicializa o Winsock
@@ -131,7 +132,9 @@ int server()
         return 1;
     }
 
-    serverSocket = socket(AF_INET, SOCK_STREAM, 0);
+    serverSocket = socket(AF_INET6, SOCK_STREAM, 0);
+    int no = 0;
+    setsockopt(serverSocket, IPPROTO_IPV6, IPV6_V6ONLY, (char *)&no, sizeof(no));
     if (serverSocket == INVALID_SOCKET)
     {
         std::cerr << "Erro ao criar socket.\n";
@@ -139,9 +142,10 @@ int server()
         return 1;
     }
 
-    serverAddr.sin_family = AF_INET;
-    serverAddr.sin_addr.s_addr = INADDR_ANY;
-    serverAddr.sin_port = htons(PORTA);
+    sockaddr_in6 serverAddr{};
+    serverAddr.sin6_family = AF_INET6;
+    serverAddr.sin6_port = htons(PORTA);
+    serverAddr.sin6_addr = in6addr_any;
 
     if (bind(serverSocket, (sockaddr *)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR)
     {

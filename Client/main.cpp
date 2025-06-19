@@ -6,6 +6,7 @@
 #include <windows.h>
 #include <filesystem>
 #include <chrono>
+#include <cstring>
 
 #pragma execution_character_set("utf-8")
 
@@ -87,18 +88,44 @@ void sendInfo(std::string &host, std::string &dir, SOCKET sock)
     std::string server_command = host + " " + dir + " " + readFilesDir(dir);
     sendSocketMessage(sock, server_command.c_str());
 
-    sleep(2);
-
     const char *message = END_CONNECTION;
 
     sendSocketMessage(sock, message);
+}
+
+bool createSockaddr(std::string ip, int port, sockaddr_storage& addr) {
+    socklen_t addrLen;
+
+    std::memset(&addr, 0, sizeof(addr));
+
+    if (ip.find(':') != std::string::npos) {
+        // IPv6
+        sockaddr_in6* addr6 = (sockaddr_in6*)&addr;
+        addr6->sin6_family = AF_INET6;
+        addr6->sin6_port = htons(port);
+        if (inet_pton(AF_INET6, ip.c_str(), &addr6->sin6_addr) != 1)
+            return false;
+        addrLen = sizeof(sockaddr_in6);
+        std::cout << "IPv6 " << ip << ":"<< port << "\n" << std::endl;
+    } else {
+        // IPv4
+        sockaddr_in* addr4 = (sockaddr_in*)&addr;
+        addr4->sin_family = AF_INET;
+        addr4->sin_port = htons(port);
+        if (inet_pton(AF_INET, ip.c_str(), &addr4->sin_addr) != 1)
+            return false;
+        addrLen = sizeof(sockaddr_in);
+        std::cout << "IPv4 " << ip << ":"<< port << "\n" << std::endl;
+    }
+
+    return true;
 }
 
 int server(std::string comando, std::string host, std::string port, std::string dir)
 {
     WSADATA wsaData;
     SOCKET sock;
-    sockaddr_in serverAddr;
+    sockaddr_storage serverAddr;
 
     if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0)
     {
@@ -106,7 +133,8 @@ int server(std::string comando, std::string host, std::string port, std::string 
         return 1;
     }
 
-    sock = socket(AF_INET, SOCK_STREAM, 0);
+    int family = (host.find(':') != std::string::npos) ? AF_INET6 : AF_INET;
+    sock = socket(family, SOCK_STREAM, 0);
     if (sock == INVALID_SOCKET)
     {
         std::cerr << "Erro ao criar socket.\n";
@@ -114,10 +142,8 @@ int server(std::string comando, std::string host, std::string port, std::string 
         return 1;
     }
 
-    serverAddr.sin_family = AF_INET;
-    serverAddr.sin_port = htons(std::stoi(port));
-    inet_pton(AF_INET, host.c_str(), &serverAddr.sin_addr);
-
+    createSockaddr(host, std::atoi(port.c_str()), serverAddr);
+    
     if (connect(sock, (sockaddr *)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR)
     {
         std::cerr << "Falha na conexão com o servidor.\n";
