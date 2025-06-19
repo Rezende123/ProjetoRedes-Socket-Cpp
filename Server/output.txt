@@ -1,0 +1,798 @@
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:19:32 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 549451 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 343511 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 127.0.0.1 ../tdir ../tdir\teste1.txt,../tdir\teste2.json,../tdir\teste3.html,
+Throughput: 145091 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 127001tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 619469 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0013247 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:19:44 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:20:24 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 632911 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 141287 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 127.0.0.1 ../tdir ../tdir\teste1.txt,../tdir\teste2.json,../tdir\teste3.html,
+Throughput: 205060 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 127001tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 985915 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0011894 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:20:28 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:20:39 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 1.5625e+06 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 291262 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 127.0.0.1 ../tdir ../tdir\teste1.txt,../tdir\teste2.json,../tdir\teste3.html,
+Throughput: 203381 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 127001tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 909091 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0009896 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:20:46 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:21:07 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 87873.5 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 220588 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 192.168.0.173 ../tdir ../tdir\teste1.txt,../tdir\teste2.json,../tdir\teste3.html,
+Throughput: 151345 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 1921680173tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 795455 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0013797 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:21:14 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:21:32 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 632911 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 128205 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 192.168.0.173 ../tdir ../tdir\teste1.txt,../tdir\teste2.json,../tdir\teste3.html,
+Throughput: 108477 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 1921680173tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 414201 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0021631 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:21:33 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:21:54 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 806452 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 185950 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 192.168.0.173 ../tdir ../tdir\teste1.txt,../tdir\teste2.json,../tdir\teste3.html,
+Throughput: 151035 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 1921680173tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 769231 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0013097 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:21:59 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:22:21 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 877193 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 146580 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 2804:14d:72bc:8a7f:df2e:8d44:a59c:d073 ../tdir ../tdir\teste1.txt,../tdir\teste2.json,../tdir\teste3.html,
+Throughput: 269583 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 280414d72bc8a7fdf2e8d44a59cd073tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 823529 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0012932 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:22:30 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:22:45 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 632911 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 121457 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 2804:14d:72bc:8a7f:df2e:8d44:a59c:d073 ../tdir ../tdir\teste1.txt,../tdir\teste2.json,../tdir\teste3.html,
+Throughput: 268287 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 280414d72bc8a7fdf2e8d44a59cd073tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 707071 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0013334 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:22:46 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:23:00 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 684932 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 128205 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 2804:14d:72bc:8a7f:df2e:8d44:a59c:d073 ../tdir ../tdir\teste1.txt,../tdir\teste2.json,../tdir\teste3.html,
+Throughput: 145086 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 280414d72bc8a7fdf2e8d44a59cd073tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 522388 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0018241 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:23:01 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:23:54 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 746269 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 191489 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 127.0.0.1 ../tdir ../tdir\teste1 copy 2.txt,../tdir\teste1 copy 3.txt,../tdir\teste1 copy 4.txt,../tdir\teste1 copy 5.txt,../tdir\teste1 copy.txt,../tdir\teste1.txt,../tdir\teste2 copy 2.json,../tdir\teste2 copy 3.json,../tdir\teste2 copy 4.json,../tdir\teste2 copy 5.json,../tdir\teste2 copy.json,../tdir\teste2.json,../tdir\teste3 copy 2.html,../tdir\teste3 copy 3.html,../tdir\teste3 copy 4.html,../tdir\teste3 copy 5.html,../tdir\teste3 copy 6.html,../tdir\teste3 copy 7.html,../tdir\teste3 copy 8.html,../tdir\teste3 copy 9.html,../tdir\teste3 copy.html,../tdir\teste3.html,
+Throughput: 1.16522e+06 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 127001tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 686275 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0013344 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:24:05 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:25:27 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 1.28205e+06 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 303030 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 127.0.0.1 ../tdir ../tdir\teste1 copy 2.txt,../tdir\teste1 copy 3.txt,../tdir\teste1 copy 4.txt,../tdir\teste1 copy 5.txt,../tdir\teste1 copy.txt,../tdir\teste1.txt,../tdir\teste2 copy 2.json,../tdir\teste2 copy 3.json,../tdir\teste2 copy 4.json,../tdir\teste2 copy 5.json,../tdir\teste2 copy.json,../tdir\teste2.json,../tdir\teste3 copy 2.html,../tdir\teste3 copy 3.html,../tdir\teste3 copy 4.html,../tdir\teste3 copy 5.html,../tdir\teste3 copy 6.html,../tdir\teste3 copy 7.html,../tdir\teste3 copy 8.html,../tdir\teste3 copy 9.html,../tdir\teste3 copy.html,../tdir\teste3.html,
+Throughput: 1.00486e+06 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 127001tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 875000 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0014042 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:25:29 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:28:09 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 714286 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 228426 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 127.0.0.1 ../tdir ../tdir\teste1copy2.txt,../tdir\teste1copy3.txt,../tdir\teste1copy4.txt,../tdir\teste1copy5.txt,../tdir\teste1copy.txt,../tdir\teste1.txt,../tdir\teste2copy2.json,../tdir\teste2copy3.json,../tdir\teste2copy4.json,../tdir\teste2copy5.json,../tdir\teste2copy.json,../tdir\teste2.json,../tdir\teste3copy2.html,../tdir\teste3copy3.html,../tdir\teste3copy4.html,../tdir\teste3copy5.html,../tdir\teste3copy6.html,../tdir\teste3copy7.html,../tdir\teste3copy8.html,../tdir\teste3copy9.html,../tdir\teste3copy.html,../tdir\teste3.html,
+Throughput: 732857 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 127001tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 608696 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0016818 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:28:13 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:28:43 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 1.5625e+06 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 303030 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 192.168.0.173 ../tdir ../tdir\teste1copy2.txt,../tdir\teste1copy3.txt,../tdir\teste1copy4.txt,../tdir\teste1copy5.txt,../tdir\teste1copy.txt,../tdir\teste1.txt,../tdir\teste2copy2.json,../tdir\teste2copy3.json,../tdir\teste2copy4.json,../tdir\teste2copy5.json,../tdir\teste2copy.json,../tdir\teste2.json,../tdir\teste3copy2.html,../tdir\teste3copy3.html,../tdir\teste3copy4.html,../tdir\teste3copy5.html,../tdir\teste3copy6.html,../tdir\teste3copy7.html,../tdir\teste3copy8.html,../tdir\teste3copy9.html,../tdir\teste3copy.html,../tdir\teste3.html,
+Throughput: 654954 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 1921680173tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 813953 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0016003 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:28:51 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:29:12 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 757576 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 145631 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 192.168.0.173 ../tdir ../tdir\teste1copy2.txt,../tdir\teste1copy3.txt,../tdir\teste1copy4.txt,../tdir\teste1copy5.txt,../tdir\teste1copy.txt,../tdir\teste1.txt,../tdir\teste2copy2.json,../tdir\teste2copy3.json,../tdir\teste2copy4.json,../tdir\teste2copy5.json,../tdir\teste2copy.json,../tdir\teste2.json,../tdir\teste3copy2.html,../tdir\teste3copy3.html,../tdir\teste3copy4.html,../tdir\teste3copy5.html,../tdir\teste3copy6.html,../tdir\teste3copy7.html,../tdir\teste3copy8.html,../tdir\teste3copy9.html,../tdir\teste3copy.html,../tdir\teste3.html,
+Throughput: 1.20546e+06 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 1921680173tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 569106 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0016541 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:29:22 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:29:36 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 1.19048e+06 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 233161 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 192.168.0.173 ../tdir ../tdir\teste1copy2.txt,../tdir\teste1copy3.txt,../tdir\teste1copy4.txt,../tdir\teste1copy5.txt,../tdir\teste1copy.txt,../tdir\teste1.txt,../tdir\teste2copy2.json,../tdir\teste2copy3.json,../tdir\teste2copy4.json,../tdir\teste2copy5.json,../tdir\teste2copy.json,../tdir\teste2.json,../tdir\teste3copy2.html,../tdir\teste3copy3.html,../tdir\teste3copy4.html,../tdir\teste3copy5.html,../tdir\teste3copy6.html,../tdir\teste3copy7.html,../tdir\teste3copy8.html,../tdir\teste3copy9.html,../tdir\teste3copy.html,../tdir\teste3.html,
+Throughput: 1.01032e+06 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 1921680173tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 945946 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0012169 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:29:38 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:30:03 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 961538 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 184049 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 2804:14d:72bc:8a7f:df2e:8d44:a59c:d073 ../tdir ../tdir\teste1copy2.txt,../tdir\teste1copy3.txt,../tdir\teste1copy4.txt,../tdir\teste1copy5.txt,../tdir\teste1copy.txt,../tdir\teste1.txt,../tdir\teste2copy2.json,../tdir\teste2copy3.json,../tdir\teste2copy4.json,../tdir\teste2copy5.json,../tdir\teste2copy.json,../tdir\teste2.json,../tdir\teste3copy2.html,../tdir\teste3copy3.html,../tdir\teste3copy4.html,../tdir\teste3copy5.html,../tdir\teste3copy6.html,../tdir\teste3copy7.html,../tdir\teste3copy8.html,../tdir\teste3copy9.html,../tdir\teste3copy.html,../tdir\teste3.html,
+Throughput: 849140 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 280414d72bc8a7fdf2e8d44a59cd073tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 583333 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0017305 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:30:12 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:30:27 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 1.13636e+06 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 198238 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 2804:14d:72bc:8a7f:df2e:8d44:a59c:d073 ../tdir ../tdir\teste1copy2.txt,../tdir\teste1copy3.txt,../tdir\teste1copy4.txt,../tdir\teste1copy5.txt,../tdir\teste1copy.txt,../tdir\teste1.txt,../tdir\teste2copy2.json,../tdir\teste2copy3.json,../tdir\teste2copy4.json,../tdir\teste2copy5.json,../tdir\teste2copy.json,../tdir\teste2.json,../tdir\teste3copy2.html,../tdir\teste3copy3.html,../tdir\teste3copy4.html,../tdir\teste3copy5.html,../tdir\teste3copy6.html,../tdir\teste3copy7.html,../tdir\teste3copy8.html,../tdir\teste3copy9.html,../tdir\teste3copy.html,../tdir\teste3.html,
+Throughput: 996522 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 280414d72bc8a7fdf2e8d44a59cd073tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 945946 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0012665 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:30:28 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:30:44 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 1.51515e+06 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 281250 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 2804:14d:72bc:8a7f:df2e:8d44:a59c:d073 ../tdir ../tdir\teste1copy2.txt,../tdir\teste1copy3.txt,../tdir\teste1copy4.txt,../tdir\teste1copy5.txt,../tdir\teste1copy.txt,../tdir\teste1.txt,../tdir\teste2copy2.json,../tdir\teste2copy3.json,../tdir\teste2copy4.json,../tdir\teste2copy5.json,../tdir\teste2copy.json,../tdir\teste2.json,../tdir\teste3copy2.html,../tdir\teste3copy3.html,../tdir\teste3copy4.html,../tdir\teste3copy5.html,../tdir\teste3copy6.html,../tdir\teste3copy7.html,../tdir\teste3copy8.html,../tdir\teste3copy9.html,../tdir\teste3copy.html,../tdir\teste3.html,
+Throughput: 1.27164e+06 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 280414d72bc8a7fdf2e8d44a59cd073tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 921053 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0010392 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:30:44 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:31:19 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 781250 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 146580 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 2804:14d:72bc:8a7f:df2e:8d44:a59c:d073 ../tdir ../tdir\teste1.txt,../tdir\teste2.json,../tdir\teste3.html,
+Throughput: 142110 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 280414d72bc8a7fdf2e8d44a59cd073tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 729167 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.00178 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:31:24 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:31:36 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 1.06383e+06 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 210280 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 192.168.0.173 ../tdir ../tdir\teste1.txt,../tdir\teste2.json,../tdir\teste3.html,
+Throughput: 145005 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 1921680173tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 648148 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0014183 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:31:42 2025
+
++---------------------------------------------------------------+
++---------------------------------------------------------------+
+|  INÍCIO
+|  Data: Thu Jun 19 13:31:56 2025
+
++---------------------------------------------------------------+
+Servidor aguardando conexão na porta 8080...
++-------------------------------------------------------+
+Resposta do cliente: READY
+Throughput: 847458 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Mensagem enviada ao cliente: READY ACK
+Throughput: 180000 B/s
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+Resposta do cliente: 127.0.0.1 ../tdir ../tdir\teste1.txt,../tdir\teste2.json,../tdir\teste3.html,
+Throughput: 152869 B/s
++-------------------------------------------------------+
+
+Salvando arquivo 127001tdir.txt
+
+Arquivo salvo com sucesso.
+
++-------------------------------------------------------+
+Resposta do cliente: ::bye::
+Throughput: 625000 B/s
++-------------------------------------------------------+
+
+Tempo total de transmissão: 0.0015062 s
+
+Servidor desligado
++---------------------------------------------------------------+
+|  FIM
+|  Data: Thu Jun 19 13:32:01 2025
+
++---------------------------------------------------------------+

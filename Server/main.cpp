@@ -9,6 +9,7 @@
 #include <sys/stat.h>  // Para mkdir()
 #include <sys/types.h> // Para mkdir()
 #include <chrono>
+#include <ctime>
 #include "main.h"
 
 #pragma execution_character_set("utf-8")
@@ -194,6 +195,13 @@ int server()
     return 0;
 }
 
+std::string getTime() {
+    time_t timestamp;
+    time(&timestamp);
+
+    return ctime(&timestamp);
+}
+
 int main()
 {
     SetConsoleOutputCP(65001); // CP_UTF8
@@ -212,7 +220,35 @@ int main()
 
 )" << std::endl;
 
-    server();
+    std::ofstream outputFile("output.txt", std::ios::app);
 
+    if (!outputFile.is_open()) {
+        std::cerr << "Error opening file!" << std::endl;
+        return 1;
+    }
+
+    std::streambuf* originalCoutBuffer = std::cout.rdbuf();
+    
+    // Habilitar quando for gerar relatório
+    // std::cout.rdbuf(outputFile.rdbuf());
+
+    std::string currentTime = getTime();
+    std::cout << "+---------------------------------------------------------------+" << std::endl;
+    std::cout << "|  INÍCIO" << std::endl;
+    std::cout << "|  Data: " << currentTime << std::endl;
+    std::cout << "+---------------------------------------------------------------+" << std::endl;
+
+    server();
+    
+    currentTime = getTime();
+    std::cout << "+---------------------------------------------------------------+" << std::endl;
+    std::cout << "|  FIM" << std::endl;
+    std::cout << "|  Data: " << currentTime << std::endl;
+    std::cout << "+---------------------------------------------------------------+" << std::endl;
+
+    // Habilitar quando for gerar relatório
+    // std::cout.rdbuf(originalCoutBuffer);
+    outputFile.close();
+    
     return 0;
 }

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include <sstream>
 #include <winsock2.h>
 #include <ws2tcpip.h>
@@ -7,6 +8,8 @@
 #include <filesystem>
 #include <chrono>
 #include <cstring>
+#include <ctime>
+#include <algorithm>
 
 #pragma execution_character_set("utf-8")
 
@@ -24,6 +27,8 @@ std::string readFilesDir(std::string dir)
 
     for (const auto &entry : std::filesystem::directory_iterator(dir))
         filesDir += entry.path().string() + ",";
+        
+    filesDir.erase(std::remove(filesDir.begin(), filesDir.end(), ' '), filesDir.end());
 
     return filesDir;
 }
@@ -121,6 +126,13 @@ bool createSockaddr(std::string ip, int port, sockaddr_storage& addr) {
     return true;
 }
 
+std::string getTime() {
+    time_t timestamp;
+    time(&timestamp);
+
+    return ctime(&timestamp);
+}
+
 int server(std::string comando, std::string host, std::string port, std::string dir)
 {
     WSADATA wsaData;
@@ -189,6 +201,15 @@ int main()
 
 )" << std::endl;
 
+    std::ofstream outputFile("output.txt", std::ios::app);
+
+    if (!outputFile.is_open()) {
+        std::cerr << "Error opening file!" << std::endl;
+        return 1;
+    }
+
+    std::streambuf* originalCoutBuffer = std::cout.rdbuf();
+
     std::cout << "Insira as informações para se conectar ao servidor:" << std::endl;
     std::cout << "<host do servidor> <port do servidor> <nome do diretório>" << std::endl;
     std::cout << "" << std::endl;
@@ -200,13 +221,30 @@ int main()
     std::string host, port, dir;
     std::istringstream iss(comando);
     iss >> host >> port >> dir;
+    
+    // Habilitar quando for gerar relatório
+    // std::cout.rdbuf(outputFile.rdbuf());
 
-    std::cout << "+---------------------+" << std::endl;
+    std::string currentTime = getTime();
+    std::cout << "+---------------------------------------------------------------+" << std::endl;
+    std::cout << "|  INÍCIO" << std::endl;
+    std::cout << "|  Data: " << currentTime << std::endl;
     std::cout << "|  Host: " << host << std::endl;
     std::cout << "|  Porta: " << port << std::endl;
     std::cout << "|  Diretório: " << dir << std::endl;
-    std::cout << "+---------------------+\n" << std::endl;
+    std::cout << "+---------------------------------------------------------------+\n" << std::endl;
 
     server(comando, host, port, dir);
+    
+    currentTime = getTime();
+    std::cout << "+---------------------------------------------------------------+" << std::endl;
+    std::cout << "|  FIM" << std::endl;
+    std::cout << "|  Data: " << currentTime << std::endl;
+    std::cout << "+---------------------------------------------------------------+" << std::endl;
+
+    // Habilitar quando for gerar relatório
+    // std::cout.rdbuf(originalCoutBuffer);
+    outputFile.close();
+
     return 0;
 }

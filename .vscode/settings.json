@@ -59,6 +59,7 @@
     "fstream": "cpp",
     "bitset": "cpp",
     "regex": "cpp",
-    "chrono": "cpp"
+    "chrono": "cpp",
+    "filesystem": "cpp"
   }
 }
