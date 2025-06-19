@@ -2,7 +2,7 @@
 
 Este projeto implementa uma comunicação simples entre **Cliente** e **Servidor** utilizando **Sockets TCP** em C++ com **Winsock (Windows)**. Ele simula um cliente que coleta nomes de arquivos de um diretório e os envia para um servidor, que cria um arquivo com esses nomes localmente.
 
-![Execução](exemplo-execucao.png)
+![Execução](./exemplo-execucao.png)
 
 ---
 
